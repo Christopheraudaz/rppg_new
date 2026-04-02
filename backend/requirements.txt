@@ -6,6 +6,7 @@ tqdm>=4.65.0
 # mediapipe
 matplotlib==3.7.0
 fastapi
-uvicorn
+uvicorn[standard]
+websockets
 python-multipart
 requests
