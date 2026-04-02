@@ -5,7 +5,7 @@ import RealTimeAnalyzer from '../components/RealTimeAnalyzer';
 
 // Default API URL
 const DEFAULT_API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
-const RENDER_API_URL = 'https://rppg-api.onrender.com';
+const RENDER_API_URL = 'https://rppg-new.onrender.com';
 
 export default function Index() {
   const [currentApiUrl, setCurrentApiUrl] = useState(DEFAULT_API_URL);
