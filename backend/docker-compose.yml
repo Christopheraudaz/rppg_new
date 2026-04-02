@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  rppg-api:
+    build: .
+    image: rppg-backend:latest
+    container_name: rppg-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
